@@ -4,6 +4,7 @@
 # Object files
 *.o
 *.ko
+*.slo
 *.obj
 *.elf
 
@@ -20,6 +21,7 @@
 *.lib
 *.a
 *.la
+*.lai
 *.lo
 
 # Shared objects (inc. Windows DLLs)
@@ -50,3 +52,11 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+### vscode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
